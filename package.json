@@ -172,9 +172,10 @@
     "webpack-bundle-analyzer": "^4.4.0",
     "workbox-webpack-plugin": "^6.0.2"
   },
-  "engines": {
-    "node": ">=12 <15"
-  },
+"engines": {
+  "node": ">=14 <17",
+  "npm": ">=6.11.0 <8"
+},
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
